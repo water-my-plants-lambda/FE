@@ -1,6 +1,6 @@
 import {
     NOTIF, REMOVE_NOTIF
-  } from '../actions'
+  } from '../actions/notifActions'
   
   const initialState = {
     notifications: []

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { addNotifHelper } from './notificationActions'; 
+import { addNotifHelper } from './notifActions'; 
 
 
 export const USER_LOGIN_START = 'USER_LOGIN_START';

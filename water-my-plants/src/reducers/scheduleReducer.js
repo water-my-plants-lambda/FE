@@ -11,7 +11,7 @@ import {
     DELETE_SINGLE_SCHEDULE_START,
     DELETE_SINGLE_SCHEDULE_SUCCESS,
     DELETE_SINGLE_SCHEDULE_FAILURE
-} from '../actions';
+} from '../actions/scheduleActions';
 
 const initialState = {
     waterSchedule: [],

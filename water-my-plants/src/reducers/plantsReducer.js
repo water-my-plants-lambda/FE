@@ -13,7 +13,7 @@ import {
     UPDATE_PLANT_START,
     UPDATE_PLANT_SUCCESS,
     UPDATE_PLANT_FAILURE
-} from '../actions';
+} from '../actions/plantsActions';
 
 const initialState = {
     plants: [],

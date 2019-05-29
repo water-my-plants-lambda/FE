@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import Login from './views/login';
+import Login from './views/Login';
 
 class App extends React.Component {
 
