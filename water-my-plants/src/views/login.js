@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { userLogin } from '../../actions';
-import styled, { withTheme } from 'styled-components';
-import { Link } from 'react-router-dom';
+import { userLogin } from '../actions';
+import /*styled,*/ { withTheme } from 'styled-components';
+// import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 class Login extends React.Component {

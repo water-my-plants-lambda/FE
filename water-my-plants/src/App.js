@@ -1,12 +1,10 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Router } from 'react-router-dom';
 
-import Login from './views/Login';
+import Login from './views/login';
 
-class App extends Component {
-  constructor() {
-    super();
-  }
+class App extends React.Component {
+
 
   render() {
     return (
