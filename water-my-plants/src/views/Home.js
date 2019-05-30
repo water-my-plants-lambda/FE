@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
-import PlantsTable from '../PlantsTable';
+import PlantsTable from '../components/PlantsTable';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import { fetchPlants, deletePlant } from '../../actions';
+import { fetchPlants, deletePlant } from '../actions';
 import PropTypes from 'prop-types';
 
 class Home extends React.Component {
@@ -27,14 +27,14 @@ class Home extends React.Component {
 const Container = styled.div`
     text-align: center;
     header {
-        font-size: 36px;
+        font-size: 16px;
     }
 `;
 
 const LoadingSpinner = styled(CircularProgress)`
     && {
-        height: 42px;
-        width: 42px;
+        height: 20px;
+        width: 20px;
         color: ${props => props.theme.primaryDark};
     }
 `; 
